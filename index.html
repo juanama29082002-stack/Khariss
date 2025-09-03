@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+<div class="container-fluid">
+  <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#">Kharis</a>
+  	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  	      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+  	        <ul class="navbar-nav mr-auto">
+  	          <li class="nav-item active"> <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a> </li>
+  	          <li class="nav-item"> <a class="nav-link" href="#">Misión&nbsp;<br>
+  	          </a> </li>
+				<li class="nav-item"> <a class="nav-link" href="#">Colección&nbsp;<br>
+  	          </a> </li>
+				<li class="nav-item"> <a class="nav-link" href="#">Santos&nbsp;<br>
+  	          </a> </li>
+				<li class="nav-item"> <a class="nav-link" href="#">Testimonios&nbsp;<br>
+  	          </a> </li>	
+				<li class="nav-item"> <a class="nav-link" href="#">Donaciones&nbsp;<br>
+  	          </a> </li>
+				
+  	          <li class="nav-item dropdown">
+<div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+  	              <a class="dropdown-item" href="#">Something else here</a> </div>
+              </li>
+  	          <li> </li>
+            </ul>
+</div>
+      </nav>
+  	    <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" style="background-color: grey">
+  	      <ol class="carousel-indicators">
+  	        <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+  	        <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+  	        <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+			<li data-target="#carouselExampleIndicators1" data-slide-to="3"></li>
+          </ol>
+  	      <div class="carousel-inner" role="listbox">
+  	        <div class="carousel-item active"> <img class="d-block mx-auto img-fluid" src="images/cupula.jpg" alt="First slide">
+  	          <div class="carousel-caption">
+  	            <h5>Kharis, la gracia de Dios</h5>
+  	            <p>Juan 1:16</p>
+              </div>
+            </div>
+  	        <div class="carousel-item"> <img class="d-block mx-auto img-fluid" src="images/San José.jpg" alt="Second slide">
+  	          <div class="carousel-caption">
+  	            <h5>Ser santos o morir en el intento</h5>
+  	            <p>1 Pedro 1:15-16</p>
+              </div>
+            </div>
+  	        <div class="carousel-item"> <img class="d-block mx-auto img-fluid" src="images/Iglesia bonita.jpg" alt="Third slide">
+  	          <div class="carousel-caption">
+  	            <h5>Ser luz y sal</h5>
+  	            <p>Mateo 5:13-16</p>
+              </div>
+            </div>
+			  <div class="carousel-item"> <img class="d-block mx-auto img-fluid" src="images/Virgen día.jpg" alt="Fourth slide">
+  	          <div class="carousel-caption">
+  	            <h5>Ser voz para los que no tienen voz.</h5>
+  	            <p>Hebreos 13:3</p>
+              </div>
+            </div>
+          </div>
+  	      <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+    </div>
+    <h1 class="text-center">Comunidad Kharis</h1>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card col-md-4 col-lg-12"> <img class="card-img-top img-fluid" src="images/cupula.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Países</h5>
+            <p class="card-text">Descubre las regiones donde los cristianos viven su fe en medio de la persecución y el silencio.</p>
+            <a href="#" class="btn btn-primary">Conocer más.&nbsp;</a> </div>
+        </div>
+      &nbsp;</div>
+      <div class="col-lg-4">
+        <div class="card col-md-4 col-lg-12"> <img class="card-img-top img-fluid" src="images/paz.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">&nbsp;Voces de fe</h5>
+            <p class="card-text">Conoce las historias de valentía y esperanza de quienes mantienen viva su fe a pesar de la persecución y las ame.</p>
+            <a href="#" class="btn btn-primary">Leer más.</a> </div>
+        </div>
+      &nbsp;</div>
+      <div class="col-lg-4">
+        <div class="card col-md-4 col-lg-12"> <img class="card-img-top img-fluid" src="images/Virgen centro.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Donación&nbsp;</h5>
+            <p class="card-text">Con tu aporte apoyas directamente a comunidades que viven su fe en medio de la persecución.</p>
+            <a href="#" class="btn btn-primary">Donar ahora.</a> </div>
+        </div>
+      &nbsp;</div>
+    </div>
+    <div id="accordion1" role="tablist">
+      <div class="card">
+        <div class="card-header" role="tab" id="headingOne1">
+          <h5 class="mb-0"> <a data-toggle="collapse" href="#collapseOne1" role="button" aria-expanded="true" aria-controls="collapseOne1"> ¿Quiénes son los cristianos perseguidos? </a> </h5>
+        </div>
+		  <br>
+        <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordion1">
+          <div class="card-body">Millones de cristianos en el mundo son perseguidos por causa de su fe. Viven en contextos donde expresar su amor por Cristo significa arriesgar su vida, perder sus hogares o ser excluidos de la sociedad. Sin embargo, permanecen firmes, recordándonos la verdadera valentía de creer aun en medio de la adversidad.</div>
+        </div>
+		        </div>
+      <div class="card">
+        <div class="card-header" role="tab" id="headingTwo1">
+          <h5 class="mb-0"> <a data-toggle="collapse" href="#collapseTwo1" role="button" aria-expanded="true" aria-controls="collapseTwo1"> ¿Cómo ayudamos? </a> </h5>
+        </div>
+		  <br>
+        <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1" data-parent="#accordion1">
+          <div class="card-body">Kharis nace con el propósito de ser un puente entre quienes sufren en silencio y quienes desean apoyar con amor. Cada prenda, tote bag y accesorio lleva un mensaje profético que no solo inspira, sino que también contribuye a visibilizar su realidad. Además, un porcentaje de nuestras ventas se destina directamente a proyectos de ayuda humanitaria, educación y acompañamiento espiritual en zonas donde ser cristiano es un desafío diario</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" role="tab" id="headingThree1">
+          <h5 class="mb-0"> <a data-toggle="collapse" href="#collapseThree1" role="button" aria-expanded="true" aria-controls="collapseThree1"> ¿Cómo puedes unirte? </a> </h5>
+        </div>
+		  <br>
+        <div id="collapseThree1" class="collapse" role="tabpanel" aria-labelledby="headingThree1" data-parent="#accordion1">
+          <div class="card-body">No necesitas estar en otro país para marcar la diferencia. Al comprar una prenda de Kharis, al realizar una donación, al compartir este mensaje, te conviertes en un portavoz de esperanza, pero sobre todo, ora, no te canses de orar. Tu fe puede vestirse de voz y tu apoyo puede transformar la vida de quienes hoy no pueden hablar. Juntos podemos ser una generación que no solo cree, sino que también actúa en favor de los más vulnerables.</div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="row">
+        <div class="col-lg-6">Logo</div>
+        <div class="col-lg-6">Copyrights© All rights reserved</div>
+      </div>
+    </footer>
+  </div>
+  	<!-- body code goes here -->
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
